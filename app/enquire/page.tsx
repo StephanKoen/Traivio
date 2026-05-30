@@ -65,16 +65,31 @@ export default function EnquirePage() {
                 <div className="flex flex-col gap-6">
                   <Office
                     city="Dubai"
-                    description="Gate Avenue, DIFC — guest relationships and the Gulf office."
+                    description="Jumeirah Village Circle — guest relationships and the Gulf office."
                   />
                   <Office
-                    city="Cape Town"
-                    description="42 Hans Strijdom, Foreshore — product and itinerary writing."
+                    city="George"
+                    description="Garden Route, South Africa — strategy and operations."
                   />
-                  <Office
-                    city="Lusaka"
-                    description="Kabulonga — ground operations for Zambia and East Africa."
-                  />
+                </div>
+
+                <div className="mt-8 hairline pt-6">
+                  <p className="label mb-3">WhatsApp</p>
+                  <a
+                    href="https://wa.me/971588585960"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-serif italic text-[22px] leading-snug transition-colors duration-300 hover:text-[color:var(--dd-gold-antique)]"
+                    style={{ color: "var(--dd-ink)" }}
+                  >
+                    +971 58 858 5960
+                  </a>
+                  <p
+                    className="mt-2 text-[13px] leading-relaxed"
+                    style={{ color: "var(--dd-stone)" }}
+                  >
+                    UAE Business WhatsApp — we typically reply within a few hours.
+                  </p>
                 </div>
 
                 <div className="mt-8 hairline pt-6">

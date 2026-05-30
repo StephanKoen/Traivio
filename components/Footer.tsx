@@ -117,6 +117,19 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-6">
+              <p className="label mb-3">WhatsApp</p>
+              <a
+                href="https://wa.me/971588585960"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-serif italic text-[18px] leading-snug transition-colors duration-300 hover:text-[color:var(--dd-gold)]"
+                style={{ color: "rgba(200,192,170,0.55)" }}
+              >
+                +971 58 858 5960
+              </a>
+            </div>
           </div>
         </div>
 
