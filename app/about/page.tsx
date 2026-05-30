@@ -116,7 +116,7 @@ export default function AboutPage() {
               name="Lloyd Barkhuizen"
               role="Co-Founder & Chief Revenue Officer"
               office="Dubai"
-              image={images.foodWine}
+              image="/images/journeys/the-cape-and-kruger/Lloyd Profile Picture.png"
               alt="Lloyd Barkhuizen, Co-Founder of Amara Africa"
               bio={[
                 "With over thirty years in the travel industry, Lloyd brings a depth of experience that few can match. His enduring passion for Africa — its landscapes, its people, its capacity to transform a traveller — is the thread that runs through everything he does.",
