@@ -210,7 +210,7 @@ export default function Nav() {
                 style={{ borderTop: "0.5px solid var(--dd-border)" }}
               >
                 <p className="label">Amara Africa · Est. 2025</p>
-                <p className="label mt-2">Dubai · Cape Town · Lusaka</p>
+                <p className="label mt-2">Dubai · George · Cape Town</p>
               </div>
             </div>
           </div>

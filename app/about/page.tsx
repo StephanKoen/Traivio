@@ -7,7 +7,7 @@ import NewsletterSection from "@/components/NewsletterSection";
 export const metadata: Metadata = {
   title: "About — Amara Africa",
   description:
-    "A small house, founded in 2025, with offices in Dubai, Cape Town and Lusaka. Our story, our team, and what we hold to.",
+    "A private safari house, founded in 2025, with offices in Dubai and George. Our story, our leadership, and what we hold to.",
 };
 
 export default function AboutPage() {
@@ -29,9 +29,10 @@ export default function AboutPage() {
             </div>
             <div className="md:col-span-5 flex flex-col justify-end">
               <p className="body-copy max-w-[460px]">
-                Amara Africa was founded in Dubai in 2025 by a small group
-                of people who had spent fifteen years writing safaris for other
-                companies, and who wanted to write them again, differently.
+                Amara Africa was founded in 2025 by three leaders with decades
+                of experience in travel and an enduring passion for the African
+                continent — united by the belief that the journey deserves to
+                be as extraordinary as the destination.
               </p>
             </div>
           </div>
@@ -64,22 +65,20 @@ export default function AboutPage() {
             </h2>
             <div className="mt-8 flex flex-col gap-5">
               <p className="body-copy">
-                We spent years inside larger houses. We learned how to write a
-                safari, and we learned — slowly, and with some frustration —
-                what is lost when a file is handed down an assembly line, and
-                what is gained when it is not.
+                Between us, we carry over fifty years in the travel industry.
+                We have walked the lodges, built the relationships, and
+                learned — through experience — what separates a good trip
+                from one that stays with you for life.
               </p>
               <p className="body-copy">
-                Amara Africa exists to keep a small number of journeys held
-                by a small number of hands. Our Dubai office holds the guest
-                relationship; our Cape Town product team holds the itinerary;
-                our Lusaka team holds the ground operation. Three rooms, one
-                voice, one pace.
+                Amara Africa exists because we believe African travel deserves
+                a more personal touch. Our Dubai office holds the guest
+                relationship; our South African team shapes the strategy
+                and operations. Two offices, three founders, one standard.
               </p>
               <p className="body-copy">
-                We are a house of three cities and three countries. We are from
-                the Gulf, from Southern Africa, and from East Africa. Our
-                clients are, quietly, the same.
+                We are from the Gulf and from Southern Africa. Our clients,
+                quietly, are the same.
               </p>
             </div>
           </div>
@@ -93,10 +92,10 @@ export default function AboutPage() {
       >
         <div className="max-w-container mx-auto">
           <div className="mb-[52px] md:mb-[76px]">
-            <p className="label mb-5">The Team</p>
+            <p className="label mb-5">Leadership</p>
             <h2 className="h2-section">
-              The{" "}
-              <span className="gold-italic">hands behind the house</span>.
+              Three founders,{" "}
+              <span className="gold-italic">one vision</span>.
             </h2>
           </div>
 
