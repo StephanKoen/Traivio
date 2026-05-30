@@ -102,25 +102,25 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-9">
             <TeamCard
+              name="Stephan Koen"
+              role="Co-Founder & Chief Strategy Officer"
+              office="George"
+              image={images.lodgeInterior}
+              alt="Stephan Koen, Co-Founder of Amara Africa"
+              bio={[
+                "Stephan is the strategic mind behind Amara Africa. With a deep understanding of what discerning travellers seek and an instinct for where the industry is headed, he shapes the vision, the brand, and the direction of the house.",
+                "His belief that African travel deserves a more personal, more considered approach is the founding principle of Amara Africa — a conviction he brings to every partnership, every journey, and every decision.",
+              ]}
+            />
+            <TeamCard
               name="Lloyd Barkhuizen"
-              role="Co-Founder & UAE Sales Lead"
+              role="Co-Founder & Chief Revenue Officer"
               office="Dubai"
               image={images.foodWine}
               alt="Lloyd Barkhuizen, Co-Founder of Amara Africa"
               bio={[
                 "With over thirty years in the travel industry, Lloyd brings a depth of experience that few can match. His enduring passion for Africa — its landscapes, its people, its capacity to transform a traveller — is the thread that runs through everything he does.",
                 "That passion, combined with a relentless focus on the guest experience, led him to co-found Amara Africa. Based in the UAE, Lloyd holds every client relationship in the Gulf personally, ensuring that each journey is as considered as the continent it explores.",
-              ]}
-            />
-            <TeamCard
-              name="Emma Jackson"
-              role="SA Product Manager"
-              office="Cape Town"
-              image={images.lodgeInterior}
-              alt="A considered lodge interior selected by the product team"
-              bio={[
-                "Emma builds every itinerary. She walks every lodge we hold, every year, and she knows which room has the late-afternoon light and which has the river frontage.",
-                "Before Amara Africa she spent eight years as a senior product lead at one of Southern Africa's most respected safari houses.",
               ]}
             />
           </div>
