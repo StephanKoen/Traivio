@@ -100,7 +100,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-9">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-9">
             <TeamCard
               name="Stephan Koen"
               role="Co-Founder & Chief Strategy Officer"
@@ -121,6 +121,17 @@ export default function AboutPage() {
               bio={[
                 "With over thirty years in the travel industry, Lloyd brings a depth of experience that few can match. His enduring passion for Africa — its landscapes, its people, its capacity to transform a traveller — is the thread that runs through everything he does.",
                 "That passion, combined with a relentless focus on the guest experience, led him to co-found Amara Africa. Based in the UAE, Lloyd holds every client relationship in the Gulf personally, ensuring that each journey is as considered as the continent it explores.",
+              ]}
+            />
+            <TeamCard
+              name="Cecily Fester"
+              role="Global Director of Operations"
+              office="George"
+              image={images.textiles}
+              alt="Cecily Fester, Global Director of Operations at Amara Africa"
+              bio={[
+                "Cecily is the operational backbone of Amara Africa. She ensures that every journey runs with the precision and care that our guests expect — from the first transfer to the final departure.",
+                "With a meticulous eye for detail and a calm command of logistics across multiple countries, Cecily keeps the house moving seamlessly, so that every experience feels effortless.",
               ]}
             />
           </div>
