@@ -126,7 +126,7 @@ export default function AboutPage() {
             <TeamCard
               name="Cecily Fester"
               role="Global Director of Operations"
-              office="George"
+              office="Cape Town"
               image={images.textiles}
               alt="Cecily Fester, Global Director of Operations at Amara Africa"
               bio={[
