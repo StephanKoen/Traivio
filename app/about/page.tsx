@@ -95,21 +95,21 @@ export default function AboutPage() {
           <div className="mb-[52px] md:mb-[76px]">
             <p className="label mb-5">The Team</p>
             <h2 className="h2-section">
-              Two{" "}
-              <span className="gold-italic">senior pairs of hands</span>.
+              The{" "}
+              <span className="gold-italic">hands behind the house</span>.
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-9">
             <TeamCard
-              name="Layla Al-Farsi"
-              role="UAE Sales Lead"
+              name="Lloyd Barkhuizen"
+              role="Co-Founder & UAE Sales Lead"
               office="Dubai"
               image={images.foodWine}
-              alt="A private table quietly laid for a senior consultant's lunch meeting"
+              alt="Lloyd Barkhuizen, Co-Founder of Amara Africa"
               bio={[
-                "Layla holds every guest relationship in the Gulf. She is the first voice you hear and the last, and she is the person at the other end of the phone while you travel.",
-                "Before Amara Africa she spent twelve years inside a Riyadh-based private travel house, writing briefs for a small roster of GCC families.",
+                "With over thirty years in the travel industry, Lloyd brings a depth of experience that few can match. His enduring passion for Africa — its landscapes, its people, its capacity to transform a traveller — is the thread that runs through everything he does.",
+                "That passion, combined with a relentless focus on the guest experience, led him to co-found Amara Africa. Based in the UAE, Lloyd holds every client relationship in the Gulf personally, ensuring that each journey is as considered as the continent it explores.",
               ]}
             />
             <TeamCard
