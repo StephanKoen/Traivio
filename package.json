@@ -10,17 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.82.0",
+    "@types/node": "^25.5.2",
+    "@types/papaparse": "^5.5.2",
     "html2canvas": "^1.4.1",
     "jspdf": "^4.2.1",
-    "leaflet": "^1.9.4",
     "lucide-react": "^1.7.0",
     "papaparse": "^5.5.3",
-    "pptxgenjs": "^4.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.14.0",
     "recharts": "^3.8.1",
+    "typescript": "^6.0.2",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
